@@ -1,0 +1,65 @@
+#firstFooter{
+	height:auto;
+	padding-top:85px;
+	position: relative;
+
+	.container{
+		padding-bottom:100px;
+		border-bottom:1px solid #EEEEEE;
+	}
+	img[alt="orangebg"]{
+		position: absolute;
+		bottom:0;
+		left: -200px;
+	}
+	ul , .contactAddress , .contactNewsLetter{
+		list-style-type: none;
+		line-height:30px;
+	}
+	.contactMenu li a , .contactService li a , i , span{
+		color:$thirdColor; text-decoration:none; 
+	}
+	span{
+		span{
+			font-weight: 400;
+			color:black
+		}
+	}
+	.contactService {
+		margin-top:40px;
+	}
+	input[value="GO"]{
+		margin-left:-5px;
+		border-color:transparent;
+		color:white;
+		background-color:$mainColor
+	}
+	.traingleorg{
+		width:0;
+		height: 0;
+		border-top:150px solid transparent;
+		border-right:150px solid transparent;
+		border-bottom:150px solid $orangeColor;
+		border-left:150px solid $orangeColor;
+		position:absolute;
+		left:0;
+		bottom:0;
+	}
+}
+#secondFooter{
+	height:auto;
+	padding-top:25px;
+	position:relative;
+	.traingleblue{
+		width:0;
+		height: 0;
+		border-top:150px solid transparent;
+		border-right:150px solid $mainColor;
+		border-bottom:150px solid $mainColor;
+		border-left:150px solid transparent;
+		position:absolute;
+		right:0;
+		bottom:-20px;
+	}
+}
+

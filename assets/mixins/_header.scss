@@ -1,0 +1,32 @@
+.contactHeader {
+	height:50px;
+	background-color:$secondaryColor;
+	p , i , span{
+		display: inline-block;
+		margin:15px 0;
+		color:$thirdColor;
+	}
+	img[alt="line"]{
+		padding:0 25px;
+	}
+}
+.mainHeader {
+	height:auto;
+	nav {
+		margin:0 ;
+		padding:0;
+		img{
+			margin-top:10px
+		}
+		ul li {
+			margin-top:15px;
+			margin-right:25px;
+			a{
+				color:$thirdColor ;
+				border-radius:20px;
+				&:active{color:black};
+				&:hover{background-color:$mainColor ; color:white}
+			}
+		}
+	}
+}

@@ -7,7 +7,7 @@ html, body {
   .contactHeader p, .contactHeader i, .contactHeader span {
     display: inline-block;
     margin: 15px 0;
-    color: gray; }
+    color: #93A1A7; }
   .contactHeader img[alt="line"] {
     padding: 0 25px; }
 
@@ -22,7 +22,7 @@ html, body {
       margin-top: 15px;
       margin-right: 25px; }
       .mainHeader nav ul li a {
-        color: gray;
+        color: #93A1A7;
         border-radius: 20px; }
         .mainHeader nav ul li a:active {
           color: black; }
@@ -76,7 +76,7 @@ hr {
     #teamMembers .row div div h3, #teamMembers .row div div i, #teamMembers .row div div p {
       font-size: 10px; }
     #teamMembers .row div div h3, #teamMembers .row div div i {
-      color: gray; }
+      color: #93A1A7; }
     #teamMembers .row div div p {
       color: #F39A38; }
 
@@ -123,7 +123,7 @@ hr {
     list-style-type: none;
     line-height: 30px; }
   #firstFooter .contactMenu li a, #firstFooter .contactService li a, #firstFooter i, #firstFooter span {
-    color: gray;
+    color: #93A1A7;
     text-decoration: none; }
   #firstFooter span span {
     font-weight: 400;
