@@ -40,7 +40,7 @@ html , body{
 #slider {
 	width:1970;
 	height:310px;
-	background:url('../trolltunga.jpg') left no-repeat;
+	background:url('../../../trolltunga.jpg') left no-repeat;
 	background-size:100%;
 	h1 , p {
 		color:white;
@@ -134,9 +134,14 @@ hr{
 	}
 }
 #firstFooter{
-	height:320px;
+	height:auto;
 	padding-top:85px;
 	position: relative;
+
+	.container{
+		padding-bottom:100px;
+		border-bottom:1px solid #EEEEEE;
+	}
 	img[alt="orangebg"]{
 		position: absolute;
 		bottom:0;
@@ -164,7 +169,31 @@ hr{
 		color:white;
 		background-color:$mainColor
 	}
-	img[alt="triangleorg"]{
-		float:left;
+	.traingleorg{
+		width:0;
+		height: 0;
+		border-top:150px solid transparent;
+		border-right:150px solid transparent;
+		border-bottom:150px solid $orangeColor;
+		border-left:150px solid $orangeColor;
+		position:absolute;
+		left:0;
+		bottom:0;
+	}
+}
+#secondFooter{
+	height:auto;
+	padding-top:25px;
+	position:relative;
+	.traingleblue{
+		width:0;
+		height: 0;
+		border-top:150px solid transparent;
+		border-right:150px solid $mainColor;
+		border-bottom:150px solid $mainColor;
+		border-left:150px solid transparent;
+		position:absolute;
+		right:0;
+		bottom:-20px;
 	}
 }
