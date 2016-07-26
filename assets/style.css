@@ -1,4 +1,179 @@
-body {
-  background-color: #56cfe7; }
+html, body {
+  font-family: Tahoma  , sans-serif;
+}
+
+.contactHeader {
+  height: 50px;
+  background-color: #E5EEF0;
+}
+.contactHeader p, .contactHeader i, .contactHeader span {
+  display: inline-block;
+  margin: 15px 0;
+  color: gray;
+}
+.contactHeader img[alt="line"] {
+  padding: 0 25px;
+}
+
+.mainHeader {
+  height: auto;
+}
+.mainHeader nav {
+  margin: 0;
+  padding: 0;
+}
+.mainHeader nav img {
+  margin-top: 10px;
+}
+.mainHeader nav ul li {
+  margin-top: 15px;
+  margin-right: 25px;
+}
+.mainHeader nav ul li a {
+  color: gray;
+  border-radius: 20px;
+}
+.mainHeader nav ul li a:active {
+  color: black;
+}
+.mainHeader nav ul li a:hover {
+  background-color: #29C2E1;
+  color: white;
+}
+
+#slider {
+  width: 1970;
+  height: 310px;
+  background: url("../trolltunga.jpg") left no-repeat;
+  background-size: 100%;
+}
+#slider h1, #slider p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 85px;
+}
+#slider h1 {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 720px) {
+  #slider h1, #slider p {
+    font-size: 0.8em;
+  }
+}
+#infoWe {
+  margin: 90px 0;
+}
+
+hr {
+  width: 1140px;
+}
+
+#qualification div div img {
+  float: left;
+}
+#qualification div div h1, #qualification div div p {
+  margin-left: 70px;
+}
+#qualification div div h1 {
+  margin-top: -10px;
+}
+
+#teamMembers {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background-color: #E5EEF0;
+}
+#teamMembers .row div div {
+  width: 265px;
+  height: 120px;
+  background-color: white;
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+#teamMembers .row div div h3, #teamMembers .row div div i, #teamMembers .row div div p {
+  font-size: 10px;
+}
+#teamMembers .row div div h3, #teamMembers .row div div i {
+  color: gray;
+}
+#teamMembers .row div div p {
+  color: #F39A38;
+}
+
+#features div div:first-child {
+  margin-bottom: 60px;
+}
+#features .row .col-md-10 {
+  display: block;
+  margin-top: -20px;
+}
+#features .btn {
+  background-color: #29C2E1;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+#signUp {
+  padding: 100px 0;
+}
+#signUp span {
+  color: #F39A38;
+}
+#signUp .btn {
+  background-color: #29C2E1;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 40px;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+#signUp .btn:last-child {
+  background-color: #29C2E1;
+  color: white;
+  border-radius: 20px;
+  background-color: #F39A38;
+}
+
+#firstFooter {
+  height: 320px;
+  padding-top: 85px;
+  position: relative;
+}
+#firstFooter img[alt="orangebg"] {
+  position: absolute;
+  bottom: 0;
+  left: -200px;
+}
+#firstFooter ul, #firstFooter .contactAddress, #firstFooter .contactNewsLetter {
+  list-style-type: none;
+  line-height: 30px;
+}
+#firstFooter .contactMenu li a, #firstFooter .contactService li a, #firstFooter i, #firstFooter span {
+  color: gray;
+  text-decoration: none;
+}
+#firstFooter span span {
+  font-weight: 400;
+  color: black;
+}
+#firstFooter .contactService {
+  margin-top: 40px;
+}
+#firstFooter input[value="GO"] {
+  margin-left: -5px;
+  border-color: transparent;
+  color: white;
+  background-color: #29C2E1;
+}
+#firstFooter img[alt="triangleorg"] {
+  float: left;
+}
 
 /*# sourceMappingURL=style.css.map */

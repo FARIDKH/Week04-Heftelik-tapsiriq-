@@ -1,5 +1,170 @@
 $mainColor : #29C2E1;
-$secondaryColor : lighten($mainColor , 10%);
-body {
-	background-color:blue
+$secondaryColor : #E5EEF0;
+$thirdColor : gray;
+$orangeColor:#F39A38;
+html , body{
+	font-family:Tahoma  , sans-serif;
+}
+.contactHeader {
+	height:50px;
+	background-color:$secondaryColor;
+	p , i , span{
+		display: inline-block;
+		margin:15px 0;
+		color:$thirdColor;
+	}
+	img[alt="line"]{
+		padding:0 25px;
+	}
+}
+.mainHeader {
+	height:auto;
+	nav {
+		margin:0 ;
+		padding:0;
+		img{
+			margin-top:10px
+		}
+		ul li {
+			margin-top:15px;
+			margin-right:25px;
+			a{
+				color:$thirdColor ;
+				border-radius:20px;
+				&:active{color:black};
+				&:hover{background-color:$mainColor ; color:white}
+			}
+		}
+	}
+}
+#slider {
+	width:1970;
+	height:310px;
+	background:url('../trolltunga.jpg') left no-repeat;
+	background-size:100%;
+	h1 , p {
+		color:white;
+		text-align: center;
+		position: relative;
+		top:85px;
+	}
+	h1{
+		font-weight: 700
+	}
+}
+@media screen and (max-width:720px){
+	#slider {
+		h1 , p {
+			font-size:0.8em;	
+		}
+	}
+}
+#infoWe {
+	margin:90px 0;
+}
+hr{
+	width:1140px;
+}
+#qualification {
+	div div{
+		img{
+			float:left
+		}
+		h1 , p {
+			margin-left:70px;
+		}
+		h1{
+			margin-top:-10px
+		}
+	}
+}
+#teamMembers {
+	margin-top:75px;
+	margin-bottom:50px;
+	padding-bottom:100px;
+	width:100%;
+	height:auto;
+	background-color:$secondaryColor;
+	.row div div{
+		width:265px;
+		height: 120px;
+		background-color:white;
+		margin-top: -20px;
+		padding-top:20px;
+		padding-left:30px;
+		h3 , i , p{font-size:10px;}
+		h3 , i {color:$thirdColor}		
+		p {
+			color:$orangeColor
+		}
+	}
+}
+@mixin btn {
+	background-color:$mainColor;
+	color:white;
+	border-radius:20px;
+}
+#features {
+	div div:first-child{
+		margin-bottom:60px;
+	}
+	.row .col-md-10 {
+		display: block;
+		margin-top:-20px;
+	}
+	.btn{
+		@include btn;
+		margin-bottom:100px;
+	}
+}
+#signUp {
+	padding:100px 0;
+	span{
+		color:$orangeColor
+	}
+	.btn{
+		@include btn;
+		padding:10px 40px;
+		margin-right:20px;
+		margin-top:35px;
+	}
+	.btn:last-child{
+		@include btn ;
+		background-color:$orangeColor
+	}
+}
+#firstFooter{
+	height:320px;
+	padding-top:85px;
+	position: relative;
+	img[alt="orangebg"]{
+		position: absolute;
+		bottom:0;
+		left: -200px;
+	}
+	ul , .contactAddress , .contactNewsLetter{
+		list-style-type: none;
+		line-height:30px;
+	}
+	.contactMenu li a , .contactService li a , i , span{
+		color:$thirdColor; text-decoration:none; 
+	}
+	span{
+		span{
+			font-weight: 400;
+			color:black
+		}
+	}
+	.contactService {
+		margin-top:40px;
+	}
+	input[value="GO"]{
+		margin-left:-5px;
+		border-color:transparent;
+		color:white;
+		background-color:$mainColor
+	}
+	img[alt="triangleorg"]{
+		float:left;
+	}
 }
