@@ -1,3 +1,178 @@
+.contactHeader {
+  height: 50px;
+  background-color: #E5EEF0; }
+  .contactHeader p, .contactHeader i, .contactHeader span {
+    display: inline-block;
+    margin: 15px 0;
+    color: #93A1A7; }
+  .contactHeader img[alt="line"] {
+    padding: 0 25px; }
 
+.mainHeader {
+  height: auto; }
+  .mainHeader nav {
+    margin: 0;
+    padding: 0; }
+    .mainHeader nav img {
+      margin-top: 10px; }
+    .mainHeader nav ul li {
+      margin-top: 15px;
+      margin-right: 25px; }
+      .mainHeader nav ul li a {
+        color: #93A1A7;
+        border-radius: 20px; }
+        .mainHeader nav ul li a:active {
+          color: black; }
+        .mainHeader nav ul li a:hover {
+          background-color: #29C2E1;
+          color: white; }
+
+#firstFooter {
+  height: auto;
+  padding-top: 85px;
+  position: relative; }
+  #firstFooter .container {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #EEEEEE; }
+  #firstFooter img[alt="orangebg"] {
+    position: absolute;
+    bottom: 0;
+    left: -200px; }
+  #firstFooter ul, #firstFooter .contactAddress, #firstFooter .contactNewsLetter {
+    list-style-type: none;
+    line-height: 30px; }
+  #firstFooter .contactMenu li a, #firstFooter .contactService li a, #firstFooter i, #firstFooter span {
+    color: #93A1A7;
+    text-decoration: none; }
+  #firstFooter span span {
+    font-weight: 400;
+    color: black; }
+  #firstFooter .contactService {
+    margin-top: 40px; }
+  #firstFooter input[value="GO"] {
+    margin-left: -5px;
+    border-color: transparent;
+    color: white;
+    background-color: #29C2E1; }
+  #firstFooter .traingleorg {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #F39A38;
+    border-left: 150px solid #F39A38;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+
+#secondFooter {
+  height: auto;
+  padding-top: 25px;
+  position: relative; }
+  #secondFooter .traingleblue {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #29C2E1;
+    border-bottom: 150px solid #29C2E1;
+    border-left: 150px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: -20px; }
+
+html, body {
+  font-family: Tahoma , sans-serif; }
+
+#slider {
+  height: 310px;
+  background: url("../../../images/blogPostbg.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 95px;
+  padding-top: 70px; }
+  #slider h1 {
+    font-weight: 600; }
+  #slider h1, #slider p {
+    color: #93A1A7;
+    text-align: center; }
+
+#blogStart img[alt="mestia"] {
+  width: 100%; }
+#blogStart input {
+  width: 255px;
+  height: 45px; }
+#blogStart h4 {
+  margin-top: 45px; }
+#blogStart ul {
+  list-style-type: none; }
+  #blogStart ul li {
+    padding: 10px 0 0 0; }
+    #blogStart ul li i {
+      color: #F39A38; }
+    #blogStart ul li a {
+      text-decoration: none;
+      color: #93A1A7; }
+      #blogStart ul li a:hover {
+        text-decoration: none;
+        color: #F39A38; }
+
+#blogHeading p span {
+  color: #F39A38; }
+#blogHeading .col-md-offset-1 i {
+  color: #F39A38;
+  margin-right: 5px; }
+#blogHeading .col-md-4 {
+  margin-top: -40px; }
+  #blogHeading .col-md-4 .row {
+    margin-bottom: 30px; }
+    #blogHeading .col-md-4 .row .fh4 {
+      margin-left: 12px; }
+    #blogHeading .col-md-4 .row span span {
+      color: #F39A38; }
+  #blogHeading .col-md-4 button {
+    background-color: #29C2E1;
+    border-color: transparent;
+    padding: 10px 16px;
+    margin: 5px;
+    color: white; }
+
+img[alt="comment"] {
+  border-radius: 50%; }
+
+#examplePost .col-md-8 {
+  background-color: #E5EEF0;
+  padding: 40px;
+  margin-top: -80px; }
+#examplePost img {
+  margin-right: 50px; }
+#examplePost p {
+  margin-top: 15px; }
+
+#postComments .col-md-8 {
+  padding: 50px 0;
+  border-top: 1px solid #F1F6F7; }
+  #postComments .col-md-8 .col-md-10, #postComments .col-md-8 .col-md-11 {
+    padding-left: 65px;
+    padding-top: 4px; }
+    #postComments .col-md-8 .col-md-10 span span, #postComments .col-md-8 .col-md-11 span span {
+      color: #F39A38; }
+
+#leaveComment input {
+  background-color: #E5EEF0;
+  border-color: transparent; }
+#leaveComment input[class="col-md-5"] {
+  padding: 10px 17px;
+  margin: 20px 20px 0 0; }
+#leaveComment input[placeholder="COMMENT"] {
+  margin-top: 15px;
+  width: 707px;
+  height: 160px; }
+#leaveComment button {
+  width: 135px;
+  height: 40px;
+  margin-top: 35px;
+  border-radius: 20px;
+  background-color: #29C2E1;
+  color: white; }
 
 /*# sourceMappingURL=blog.css.map */

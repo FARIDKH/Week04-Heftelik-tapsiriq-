@@ -1,17 +1,140 @@
-// $mainColor : #29C2E1;
-// $secondaryColor : #E5EEF0;
-// $thirdColor : #93A1A7;
-// $orangeColor:#F39A38; 
-// @import '../../mixins/header';
-// @import '../../mixins/footer';
-// #slider {
-// 	height:310px;
-// 	background:url('../../../images/blogPostbg.jpg') no-repeat center ; 
-// 	background-size:cover;
-// 	margin-top:20px;
-// 	padding-top:70px;
-// 	h1 , p {
-// 		color:$thirdColor ;
-// 		text-align:center;
-// 	}
-// }
+$mainColor : #29C2E1;
+$secondaryColor : #E5EEF0;
+$thirdColor : #93A1A7;
+$orangeColor:#F39A38; 
+$optimalLineHeight:20px;
+@import '../../mixins/header';
+@import '../../mixins/footer';
+html , body {
+	font-family:Tahoma , sans-serif;
+}
+#slider {
+	height:310px;
+	background:url('../../../images/blogPostbg.jpg') no-repeat center ; 
+	background-size:cover;
+	margin-top:20px;
+	margin-bottom:95px;
+	padding-top:70px;
+	h1{
+		font-weight: 600
+	}
+	h1 , p {
+		color:$thirdColor ;
+		text-align:center;
+	}
+}
+#blogStart{
+	img[alt="mestia"]{
+		width:100%;
+	}
+	input{
+		width:255px;
+		height: 45px;
+	}
+	h4{
+		margin-top: 45px;
+	}
+	ul{
+		list-style-type: none;
+		li{				
+			padding:10px 0 0 0 ;
+			i{
+				color:$orangeColor
+			}
+			a{
+				text-decoration: none;
+				color:$thirdColor;
+				&:hover{
+					text-decoration: none;
+					color:$orangeColor
+				}
+			}
+		}
+	}
+}
+#blogHeading {
+	p{
+		span{
+			color:$orangeColor
+		}
+	}
+	.col-md-offset-1{
+		i{
+			color:$orangeColor;
+			margin-right:5px;
+		}
+	}
+	.col-md-4{
+		margin-top: -40px;
+		.row{
+			.fh4{
+				margin-left:12px;
+			}
+			margin-bottom:30px;
+			span{
+				span{color:$orangeColor}
+			}
+		}
+		button{
+			background-color:$mainColor;
+			border-color:transparent;
+			padding:10px 16px;;
+			margin:5px;
+			color:white;
+		}
+	}
+}
+img[alt="comment"]{
+	border-radius:50%;
+}
+#examplePost{
+	.col-md-8{
+		background-color:$secondaryColor;
+		padding:40px;
+		margin-top:-80px;
+	}
+	img{
+		margin-right:50px;
+	}
+	p{
+		margin-top:15px
+	}
+}
+#postComments{
+	.col-md-8{
+		padding:50px 0;
+		border-top:1px solid #F1F6F7;
+		.col-md-10,.col-md-11{
+			padding-left:65px;
+			padding-top:4px;
+			span{
+				span{
+					color:$orangeColor
+				}
+			}
+		}
+	}
+}
+#leaveComment {
+	input{
+		background-color:$secondaryColor ;
+		border-color:transparent;
+	}
+	input[class="col-md-5"]{
+		padding:10px 17px;
+		margin:20px 20px 0 0
+	}
+	input[placeholder="COMMENT"]{
+		margin-top:15px;
+		width:707px;
+		height: 160px
+	}
+	button{
+		width:135px;
+		height: 40px;
+		margin-top:35px;
+		border-radius:20px;
+		background-color:$mainColor;
+		color:white;
+	}
+}
