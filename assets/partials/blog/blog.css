@@ -1,0 +1,142 @@
+.contactHeader {
+  height: 50px;
+  background-color: #E5EEF0; }
+  .contactHeader p, .contactHeader i, .contactHeader span {
+    display: inline-block;
+    margin: 15px 0;
+    color: #93A1A7; }
+  .contactHeader img[alt="line"] {
+    padding: 0 25px; }
+
+.mainHeader {
+  height: auto; }
+  .mainHeader nav {
+    margin: 0;
+    padding: 0; }
+    .mainHeader nav img {
+      margin-top: 10px; }
+    .mainHeader nav ul li {
+      margin-top: 15px;
+      margin-right: 25px; }
+      .mainHeader nav ul li a {
+        color: #93A1A7;
+        border-radius: 20px; }
+        .mainHeader nav ul li a:active {
+          color: black; }
+        .mainHeader nav ul li a:hover {
+          background-color: #29C2E1;
+          color: white; }
+
+#firstFooter {
+  height: auto;
+  padding-top: 85px;
+  position: relative; }
+  #firstFooter .container {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #EEEEEE; }
+  #firstFooter img[alt="orangebg"] {
+    position: absolute;
+    bottom: 0;
+    left: -200px; }
+  #firstFooter ul, #firstFooter .contactAddress, #firstFooter .contactNewsLetter {
+    list-style-type: none;
+    line-height: 30px; }
+  #firstFooter .contactMenu li a, #firstFooter .contactService li a, #firstFooter i, #firstFooter span {
+    color: #93A1A7;
+    text-decoration: none; }
+  #firstFooter span span {
+    font-weight: 400;
+    color: black; }
+  #firstFooter .contactService {
+    margin-top: 40px; }
+  #firstFooter input[value="GO"] {
+    margin-left: -5px;
+    border-color: transparent;
+    color: white;
+    background-color: #29C2E1; }
+  #firstFooter .traingleorg {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #F39A38;
+    border-left: 150px solid #F39A38;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+
+#secondFooter {
+  height: auto;
+  padding-top: 25px;
+  position: relative; }
+  #secondFooter .traingleblue {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #29C2E1;
+    border-bottom: 150px solid #29C2E1;
+    border-left: 150px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: -20px; }
+
+#slider {
+  width: 100%;
+  height: 310px;
+  background: url("../../../images/kluki.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding-top: 100px; }
+  #slider h1, #slider p {
+    color: white;
+    text-align: center; }
+
+#blogStart .col-md-9 h1 {
+  margin-top: 35px; }
+#blogStart .col-md-9 p span {
+  color: #F39A38; }
+#blogStart .col-md-9 img, #blogStart .col-md-9 video {
+  width: 100%; }
+#blogStart .col-md-9 .btn-info {
+  margin-bottom: 100px;
+  border-radius: 25px; }
+  #blogStart .col-md-9 .btn-info:hover {
+    background-color: #F39A38; }
+#blogStart .col-md-9 .btn-default:hover {
+  background-color: #F39A38; }
+#blogStart .col-md-3 .row {
+  margin: 10px 0; }
+#blogStart .col-md-3 img {
+  border-radius: 50%; }
+#blogStart .col-md-3 p, #blogStart .col-md-3 span {
+  margin-left: 10px; }
+  #blogStart .col-md-3 p span, #blogStart .col-md-3 span span {
+    color: #F39A38; }
+#blogStart .col-md-3 input {
+  width: 265px;
+  height: 50px; }
+#blogStart .col-md-3 .fa-search {
+  position: relative;
+  left: 275px;
+  bottom: 35px; }
+#blogStart .col-md-3 ul {
+  list-style-type: none; }
+  #blogStart .col-md-3 ul li {
+    padding: 10px 0; }
+    #blogStart .col-md-3 ul li a {
+      text-decoration: none;
+      color: #93A1A7; }
+      #blogStart .col-md-3 ul li a:hover {
+        text-decoration: none;
+        color: #F39A38; }
+        #blogStart .col-md-3 ul li a:hover i {
+          color: #F39A38; }
+#blogStart button {
+  color: white;
+  background: #29C2E1;
+  border-color: transparent;
+  padding: 10px;
+  margin: 5px; }
+
+/*# sourceMappingURL=blog.css.map */
